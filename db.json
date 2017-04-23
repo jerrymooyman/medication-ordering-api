@@ -90,21 +90,27 @@
       "medicationId": "C64CDDFF-9462-4387-9B5E-A69E21364497",
       "dose": "take all at once with alcohol",
       "patientId": "58fc2852085b5890af8e3c89",
-      "requestedById": "58fc8730025d33c15b30a3c8"
+      "requestedById": "58fc8730025d33c15b30a3c8",
+      "priority": "urgent",
+      "requiredByTime": "23/04/2017 1300hrs"
     },
     {
       "id": "3E891009-6656-4303-BD9D-9D05662BF685",
       "medicationId": "3208CFC4-2620-4855-AB5B-A039A96382D0",
       "dose": "500mg",
       "patientId": "58fc28522a2a98d5666a1324",
-      "requestedById": "58fc8730a806b238dc1ebb04"
+      "requestedById": "58fc8730a806b238dc1ebb04",
+      "priority": "standard",
+      "requiredByTime": "23/04/2017 0900hrs"
     },
     {
       "id": "457822CE-5874-4A91-98B2-BD74ED93632A",
       "medicationId": "4E3D135D-6932-4DE2-8397-4993B9641DC3",
       "dose": "2 capsules twice with meals",
       "patientId": "58fc2852b23b9809c70cfe8d",
-      "requestedById": "58fc8730ad1c33ec2ae0871d"
+      "requestedById": "58fc8730ad1c33ec2ae0871d",
+      "priority": "urgent",
+      "requiredByTime": "23/04/2017 1000hrs"
     }
   ],
   "medications": [

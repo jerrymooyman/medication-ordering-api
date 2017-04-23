@@ -1,4 +1,42 @@
 {
+  "staff": [
+    {
+      "id": "58fc8730025d33c15b30a3c8",
+      "firstName": "Katheryn",
+      "lastName": "Hood",
+      "gender": "female",
+      "role": "nurse",
+      "email": "katherynhood@techtrix.com",
+      "phone": "+1 (907) 576-2199"
+    },
+    {
+      "id": "58fc8730a806b238dc1ebb04",
+      "firstName": "Robert",
+      "lastName": "Cabrera",
+      "gender": "male",
+      "role": "nurse",
+      "email": "ballardcabrera@playce.com",
+      "phone": "+1 (872) 452-2045"
+    },
+    {
+      "id": "58fc8730ad1c33ec2ae0871d",
+      "firstName": "Andrew",
+      "lastName": "Puckett",
+      "gender": "male",
+      "role": "doctor",
+      "email": "andrewspuckett@dragbot.com",
+      "phone": "+1 (906) 567-2763"
+    },
+    {
+      "id": "58fc87307c4d3a329b937604",
+      "firstName": "Rush",
+      "lastName": "Bell",
+      "gender": "male",
+      "role": "nurse",
+      "email": "rushbell@zeam.com",
+      "phone": "+1 (839) 572-3248"
+    }
+  ],
   "patients": [
     {
       "id": "58fc2852085b5890af8e3c89",
@@ -52,21 +90,21 @@
       "medicationId": "C64CDDFF-9462-4387-9B5E-A69E21364497",
       "dose": "take all at once with alcohol",
       "patientId": "58fc2852085b5890af8e3c89",
-      "requestedBy": "nurse jackie"
+      "requestedById": "58fc8730025d33c15b30a3c8"
     },
     {
       "id": "3E891009-6656-4303-BD9D-9D05662BF685",
       "medicationId": "3208CFC4-2620-4855-AB5B-A039A96382D0",
       "dose": "500mg",
       "patientId": "58fc28522a2a98d5666a1324",
-      "requestedBy": "the nurse from kill bill "
+      "requestedById": "58fc8730a806b238dc1ebb04"
     },
     {
       "id": "457822CE-5874-4A91-98B2-BD74ED93632A",
       "medicationId": "4E3D135D-6932-4DE2-8397-4993B9641DC3",
       "dose": "2 capsules twice with meals",
       "patientId": "58fc2852b23b9809c70cfe8d",
-      "requestedBy": "Dr Strange"
+      "requestedById": "58fc8730ad1c33ec2ae0871d"
     }
   ],
   "medications": [

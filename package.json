@@ -1,0 +1,14 @@
+{
+  "name": "console2-maintenance-api",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "node_modules/.bin/json-server --watch db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jerry mooyman",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.9.6"
+  }
+}

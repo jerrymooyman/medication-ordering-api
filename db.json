@@ -1,0 +1,161 @@
+{
+  "propertyManagers": [
+    {
+      "id": "e7535314-4390-403a-84de-6c7baec81b70",
+      "firstName": "Abe",
+      "lastName": "McSweeney",
+      "agencyId": "1dfcc0a7-78a9-47db-9a36-e41b087529c2"
+    },
+    {
+      "id": "d5184128-f0a4-4393-9c0e-21d9574a9858",
+      "firstName": "Garble",
+      "lastName": "Aliante",
+      "agencyId": "1dfcc0a7-78a9-47db-9a36-e41b087529c2"
+    }
+  ],
+  "properties": [
+    {
+      "id": "20266c58-2d7b-474a-92aa-682b17ba1297",
+      "address": "38 Del Ray Avevnue, Nunda, QLD 4014",
+      "agencyId": "1dfcc0a7-78a9-47db-9a36-e41b087529c2",
+      "tenantId": "04871386-5e5f-4cce-ab70-24cb2734a1ef"
+    },
+    {
+      "id": "ac108add-8fe8-4a77-898b-366e851113f9",
+      "address": "4 Arnold Lane, Tullermerque, ACT 2399",
+      "agencyId": "22f9e6ea-babf-4c96-b3f0-fd5a1dd129a9",
+      "tenantId": "5811cbdf-c705-4a87-8a78-8765463d98c2"
+    },
+    {
+      "id": "1bfbb1ee-1f98-4e80-afd7-0c397dd9d350",
+      "address": "1209 Belchme Road, North Boo Boo, WA 6932",
+      "agencyId": "aaf4455e-a74f-4b37-943a-3226f7de6f30",
+      "tenantId": "5cf0b9cb-5e2d-497a-9a3d-ccbf8e0fe209"
+    },
+    {
+      "id": "a9ec4740-4a43-462c-be90-7eebca1e9a38",
+      "address": "12 Archibald Lane, Ballarat, VIC 2901",
+      "agencyId": "1dfcc0a7-78a9-47db-9a36-e41b087529c2",
+      "tenantId": null
+    }
+  ],
+  "tenants": [
+    {
+      "id": "04871386-5e5f-4cce-ab70-24cb2734a1ef",
+      "firstName": "Michael",
+      "lastName": "Woodwood",
+      "propertyId": "20266c58-2d7b-474a-92aa-682b17ba1297"
+    },
+    {
+      "id": "5811cbdf-c705-4a87-8a78-8765463d98c2",
+      "firstName": "Sally",
+      "lastName": "Earwig",
+      "propertyId": "ac108add-8fe8-4a77-898b-366e851113f9"
+    },
+    {
+      "id": "5cf0b9cb-5e2d-497a-9a3d-ccbf8e0fe209",
+      "firstName": "Judy",
+      "lastName": "Dunebuggy",
+      "propertyId": "1bfbb1ee-1f98-4e80-afd7-0c397dd9d350"
+    }
+  ],
+  "tradies": [
+    {
+      "id": "7ebd67e7-cb81-4a78-9797-c6f888a77100",
+      "firstName": "marty2",
+      "lastName": "mcfly"
+    },
+    {
+      "id": "ea96fa83-b3b8-4fcd-b178-81bfb62afa82",
+      "firstName": "bifford",
+      "lastName": "tannen"
+    },
+    {
+      "id": "b8213f47-9792-4d7a-b1d2-c3171f74f43b",
+      "firstName": "george",
+      "lastName": "mcfly"
+    },
+    {
+      "id": "21647298-7e1e-4a84-9a4e-a97c17f50635",
+      "firstName": "emmet",
+      "lastName": "brown"
+    }
+  ],
+  "agencies": [
+    {
+      "id": "1dfcc0a7-78a9-47db-9a36-e41b087529c2",
+      "name": "raywhite nunda"
+    },
+    {
+      "id": "22f9e6ea-babf-4c96-b3f0-fd5a1dd129a9",
+      "name": "raywhite ipswich"
+    },
+    {
+      "id": "aaf4455e-a74f-4b37-943a-3226f7de6f30",
+      "name": "lj hooker virginia"
+    }
+  ],
+  "workOrders": [
+    {
+      "id": "e7ce8dfc-a614-4aa4-932c-f375181f7e54",
+      "title": "Leaking kitchen tap",
+      "description": "Tap leaking from the base when turned on",
+      "isPriority": 0,
+      "status": "new",
+      "createdDate": "10/03/2017",
+      "completedDueDate": "25/03/2017",
+      "propertyId": "20266c58-2d7b-474a-92aa-682b17ba1297",
+      "tradieId": "7ebd67e7-cb81-4a78-9797-c6f888a77100",
+      "contactAccess": "keys are hiding in the bushes"
+    },
+    {
+      "id": "16f94bd6-ad02-489f-9843-93a4b497671f",
+      "title": "Front Door Lock Broken",
+      "description": "The Lock on the front door wont lock anymore.",
+      "isPriority": 1,
+      "status": "new",
+      "createdDate": "08/03/2017",
+      "completedDueDate": "10/03/2017",
+      "propertyId": "20266c58-2d7b-474a-92aa-682b17ba1297",
+      "tradieId": "7ebd67e7-cb81-4a78-9797-c6f888a77100",
+      "contactAccess": "back window is open. just climb in"
+    },
+    {
+      "id": "b1fecd46-2bc1-40e4-8b8f-ec0a89687cb8",
+      "title": "Broken window",
+      "description": "Broken window in master bathroom. Needs replacing",
+      "isPriority": 0,
+      "status": "completed",
+      "createdDate": "10/03/2016",
+      "completedDueDate": "10/03/2017",
+      "propertyId": "a9ec4740-4a43-462c-be90-7eebca1e9a38",
+      "tradieId": "7ebd67e7-cb81-4a78-9797-c6f888a77100",
+      "contactAccess": "ring 1800-GIVE-ME-KEYS"
+    }
+  ],
+  "scheduledOnsites": [
+    {
+      "id": "a7ce8dfc-a614-4aa4-932c-f375181f7e54",
+      "dateAndTime": "2015-05-02T22:04:21+00:00",
+      "workOrderId": "e7ce8dfc-a614-4aa4-932c-f375181f7e54"
+    },
+    {
+      "id": "b7419ca6-2498-11e7-93ae-92361f002671",
+      "dateAndTime": "2019-05-02T22:04:21+00:00",
+      "workOrderId": "e7ce8dfc-a614-4aa4-932c-f375181f7e54"
+    },
+    {
+      "id": "a6f94bd6-ad02-489f-9843-93a4b497671f",
+      "dateAndTime": "2010-04-28T12:04:21+00:00",
+      "workOrderId": "b1fecd46-2bc1-40e4-8b8f-ec0a89687cb8"
+    },
+    {
+      "id": "b741a458-2498-11e7-93ae-92361f002671",
+      "dateAndTime": "2019-04-28T12:04:21+00:00",
+      "workOrderId": "b1fecd46-2bc1-40e4-8b8f-ec0a89687cb8"
+    }
+  ],
+  "health": {
+    "status": "OK"
+  }
+}
